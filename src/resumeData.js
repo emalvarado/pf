@@ -1,44 +1,44 @@
 let resumeData = {
     "imagebaseurl":"https://rbhatia46.github.io/",
-    "name": "Rahul Bhatia",
-    "role": "Frontend Developer and Data Scientist",
-    "linkedinId":"Your LinkedIn Id",
-    "skypeid": "Your skypeid",
-    "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
+    "name": "Elizabeth Alvarado",
+    "role": "Full Stack Developer",
+    "linkedinId":"emalvarado",
+    // "skypeid": "Your skypeid",
+    "roleDescription": "I like turtles. As only European teams competed during the fifteenth and sixteenth centuries, purists prefer to date the Quidditch World Cup’s inception from the seventeenth century when it became open to all continents. There is also heated debate about the accuracy of some historical accounts of tournaments. A substantial amount of all post-game analysis centres on whether magical interference took place and whether it made, or ought to have made, the final result moot.",
     "socialLinks":[
         {
           "name":"linkedin",
-          "url":"https://www.linkedin.com/in/rahul-bhatia-67ba08121/",
+          "url":"https://www.linkedin.com/in/emalvarado/",
           "className":"fa fa-linkedin"
         },
         {
           "name":"github",
-          "url":"http://github.com/rbhatia46",
+          "url":"https://github.com/emalvarado",
           "className":"fa fa-github"
         },
-        {
-          "name":"skype",
-          "url":"http://twitter.com/rbhatia46",
-          "className":"fa fa-twitter"
-        }
+        // {
+        //   "name":"skype",
+        //   "url":"http://twitter.com/rbhatia46",
+        //   "className":"fa fa-twitter"
+        // }
       ],
-    "aboutme":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
-    "address":"India",
-    "website":"https://rbhatia46.github.io",
+    "aboutme":"I like turtles. As only European teams competed during the fifteenth and sixteenth centuries, purists prefer to date the Quidditch World Cup’s inception from the seventeenth century when it became open to all continents. There is also heated debate about the accuracy of some historical accounts of tournaments. A substantial amount of all post-game analysis centres on whether magical interference took place and whether it made, or ought to have made, the final result moot.",
+    "address":"emalvarado90@gmail.com",
+    "website":"https://github.com/emalvarado",
     "education":[
       {
-        "UniversityName":"The LNM Insitute of Information Technology",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Aug",
-        "YearOfPassing":"2020",
-        "Achievements":"Some Achievements"
+        "UniversityName":"DevMountain",
+        "specialization":"Web Development",
+        "MonthOfPassing":"Mar",
+        "YearOfPassing":"2019",
+        // "Achievements":"Some Achievements"
       },
       {
-        "UniversityName":"Some University",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Jan",
-        "YearOfPassing":"2018",
-        "Achievements":"Some Achievements"
+        "UniversityName":"University of Massachusetts Amherst",
+        "specialization":"Animal Sciences",
+        "MonthOfPassing":"Dec",
+        "YearOfPassing":"2012",
+        "Achievements":"Bachelor of Science"
       }
     ],
     "work":[
