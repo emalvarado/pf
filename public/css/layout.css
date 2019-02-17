@@ -38,6 +38,7 @@ header {
 	-webkit-background-size: cover !important;
    text-align: center;
    overflow: hidden;
+   background-attachment: fixed;
 }
 
 /* vertically center banner section */
@@ -54,6 +55,8 @@ header .banner {
    width: 85%;
    padding-bottom: 30px;
    text-align: center;
+   margin-bottom: 20em;
+
 }
 
 header .banner-text { width: 100%; }
@@ -179,7 +182,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #F06000; }
+ul#nav li.current a { color: #49d9bd; }
 
 
 /* ------------------------------------------------------------------ */
@@ -187,10 +190,10 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #2B2B2B;
-   padding-top: 96px;
-   padding-bottom: 66px;
-   overflow: hidden;
+   /* background: #2B2B2B; */
+   /* padding-top: 96px; */
+   /* padding-bottom: 66px; */
+   /* overflow: hidden; */
 }
 
 #about a, #about a:visited  { color: #fff; }
@@ -203,7 +206,7 @@ ul#nav li.current a { color: #F06000; }
 }
 #about p {
    line-height: 30px;
-   color: #7A7A7A;
+   color: #ffffff;
 }
 #about .profile-pic {
    position: relative;
@@ -216,7 +219,9 @@ ul#nav li.current a { color: #F06000; }
    width: 58.33333%;
    padding-top: 6px;
 }
-#about .main-col { padding-right: 5%; }
+#about .main-col { 
+  padding-right: 5%;
+}
 #about .download .button {
    margin-top: 6px;
    background: #444;
@@ -412,8 +417,7 @@ ul#nav li.current a { color: #F06000; }
 
 #portfolio {
    background: #ebeeee;
-   padding-top: 90px;
-   padding-bottom: 60px;
+   padding: 2em;
 }
 #portfolio h1 {
    font: 15px/24px 'opensans-semibold', sans-serif;
@@ -639,7 +643,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-   background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
+   background: #1F1F1F url(../images/halongsunsetedit.jpg) no-repeat center center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    background-attachment: fixed;
@@ -652,6 +656,7 @@ call-to-action .button {
 #testimonials .text-container {
    padding-top: 96px;
    padding-bottom: 66px;
+   background-color: #0000007a;
 }
 #testimonials h1 {
    font: 18px/24px 'opensans-bold', sans-serif;   

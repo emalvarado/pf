@@ -1,0 +1,72 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.portfolio-header {
+  text-align: center;
+}
+
+
+.portfolioPiece-container {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  box-shadow: 2px 2px 20px;
+  align-items: center;
+  padding: .5em 2em;
+  margin: 3em 0;
+}
+
+.slider-container {
+  height: fit-content;
+  width: fit-content;
+  padding: 2em;
+}
+
+.slider {
+  width: 700px;
+  margin: auto;
+}
+
+
+.slick-prev:before, .slick-next:before {
+  color: #000;
+}
+
+.LS-image-description {
+  text-align: center;
+}
+
+.info-container {
+  padding: 2em;
+  li {
+    list-style: circle;
+  }
+}
+
+.button-container button{
+  margin-right: 3em;
+}
+
+@media (max-width: 1268px) {
+  .portfolioPiece-container {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 900px) {
+  .slider {
+    width: 500px;
+  }
+}
+
+@media (max-width: 720px) {
+  .slider {
+    width: 300px;
+  }
+  #portfolio {
+    padding: 0;
+  }
+  .portfolioPiece-container {
+    padding: 0;
+  }
+}

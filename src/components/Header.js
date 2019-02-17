@@ -11,10 +11,11 @@ export default class Header extends Component {
           <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
             <ul id="nav" className="nav">
                <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
+               <li><a className="smoothscroll" href="#skills">Skills</a></li>
                <li><a className="smoothscroll" href="#about">About</a></li>
              {/* <li><a className="smoothscroll" href="#resume">Resume</a></li>  */}
                <li><a className="smoothscroll" href="#portfolio">Works</a></li>
-               <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
+               {/* <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li> */}
                <li><a className="smoothscroll" href="#contact">Contact</a></li>
             </ul>
          </nav>
@@ -22,7 +23,7 @@ export default class Header extends Component {
          <div className="row banner">
             <div className="banner-text">
                <h1 className="responsive-headline">{resumeData.name}</h1>
-               <h3 style={{color:'#fff', fontFamily:'sans-serif '}}>{resumeData.role}. {resumeData.roleDescription}
+               <h3 style={{color:'#fff', fontFamily:'sans-serif '}}>{resumeData.role} {resumeData.roleDescription}
                </h3>
                <hr/>
                <ul className="social">
@@ -41,7 +42,7 @@ export default class Header extends Component {
          </div>
 
          <p className="scrolldown">
-            <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
+            <a className="smoothscroll" href="#skills"><i className="icon-down-circle"></i></a>
          </p>
 
       </header>

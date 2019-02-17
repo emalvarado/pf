@@ -1,0 +1,30 @@
+#skills {
+  text-align: center;
+  padding: 5em;
+  h2 {
+    color: #fff;
+    margin-bottom: 2em;
+  }
+  h3 {
+    color: #808386;
+  }
+}
+
+.logos-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 1em auto;
+  max-width: 1000px;
+  img {
+    height: 100px;
+  }
+  label {
+    color: #808386;
+  }
+}
+
+@media (max-width: 767px) {
+  .logos-container {
+    flex-direction: column;
+  }
+}

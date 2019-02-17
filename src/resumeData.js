@@ -1,10 +1,10 @@
 let resumeData = {
     "imagebaseurl":"https://rbhatia46.github.io/",
     "name": "Elizabeth Alvarado",
-    "role": "Full Stack Developer",
+    "role": "Full-Stack Web Developer",
     "linkedinId":"emalvarado",
     // "skypeid": "Your skypeid",
-    "roleDescription": "I like turtles. As only European teams competed during the fifteenth and sixteenth centuries, purists prefer to date the Quidditch World Cup’s inception from the seventeenth century when it became open to all continents. There is also heated debate about the accuracy of some historical accounts of tournaments. A substantial amount of all post-game analysis centres on whether magical interference took place and whether it made, or ought to have made, the final result moot.",
+    // "roleDescription": ,
     "socialLinks":[
         {
           "name":"linkedin",
@@ -67,13 +67,19 @@ let resumeData = {
       },
       {
         "skillname":"Reactjs"
+      },
+      {
+        "skillname":"Illustrator"
+      },
+      {
+        "skillname":"Photoshop"
       }
     ],
     "portfolio":[
       {
-        "name":"project1",
+        "name":"sjhdfgkjshgf",
         "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "imgurl":""
       },
       {
         "name":"project2",
