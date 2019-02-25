@@ -24,7 +24,21 @@
 }
 
 @media (max-width: 767px) {
+  #skills > div {
+    display: flex;
+    justify-content: space-evenly;
+  }
   .logos-container {
     flex-direction: column;
+    margin: 0;
   }
+}
+
+@media (max-width: 534px) {
+  #skills {
+    padding: 3em 0;
+  }
+  .logos-container img {
+    height: 70px;
+}
 }

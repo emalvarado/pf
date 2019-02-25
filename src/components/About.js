@@ -6,22 +6,22 @@ export default class About extends Component {
       <section id='about'>
         <section id="testimonials">
           <div className="text-container">
+                <h2>About Me</h2>
             <div className="row">
-              <div className="two columns header-col">
+              {/* <div className="two columns header-col"> */}
                 {/* <h1><span>Client Testimonials</span></h1> */}
-              </div>
+              {/* </div> */}
               <div className="nine columns main-col">
 
-                <h2>About Me</h2>
                 <p>
                   {
                     resumeData.aboutme
                   }
                 </p>
 
-                <div className="row">
+                {/* <div className="row"> */}
 
-                  <div className="columns contact-details">
+                  {/* <div className="columns contact-details">
 
                     <h2>Contact Details</h2>
                     <p className="address">
@@ -33,8 +33,8 @@ export default class About extends Component {
                       <br></br>
                       <span>{resumeData.website}</span>
                     </p>
-                  </div>
-                </div>
+                  </div> */}
+                {/* </div> */}
               </div>
             </div> {/* row ends */}
           </div>  {/* text-container ends */}

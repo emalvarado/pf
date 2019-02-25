@@ -13,15 +13,14 @@ import scheduleImg3 from '../images/LS/schedule3.png'
 
 export default class Porfolio extends Component {
   render() {
-    let resumeData = this.props.resumeData;
+    // let resumeData = this.props.resumeData;
     var settings = {
       dots: true,
-      infinite: false,
+      infinite: true,
       speed: 500,
       slidesToShow: 1,
       slidesToScroll: 1,
       initialSlide: 0,
-      infinite: true,
       fade: true,
       rows: 2,
     }
@@ -145,10 +144,10 @@ export default class Porfolio extends Component {
         <div className='portfolioPiece-container'>
           
           <div className='info-container'>
-            <h3>Lean Sciences:</h3>
-            <p>a personally created full stack website for a personal training business, where clients can make appointments for training sessions from an availability set by the employee. </p>
+            <h3>Kanoo:</h3>
+            <p>An app to help manage your travel plans, with ability to add budget expenses, activities, locations, and more. </p>
             <h3>Technologies Used:</h3>
-            <p>React | NodeJS | PostgresSQL | Socket.io | Stripe | NodeMailer | Sass | CSS3 | HTML5 | Redux | Axios | Express | Massive | Bcrypt | Heroku </p>
+            <p>React | NodeJS | PostgresSQL | Sass | CSS3 | HTML5 | Redux | Axios | Express | Massive | Bcrypt | Heroku </p>
 
             <ul>
               <li>Socket.io implemented for both clients and employees to be updated in real time</li>

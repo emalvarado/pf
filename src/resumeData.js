@@ -22,7 +22,7 @@ let resumeData = {
         //   "className":"fa fa-twitter"
         // }
       ],
-    "aboutme":"I like turtles. As only European teams competed during the fifteenth and sixteenth centuries, purists prefer to date the Quidditch World Cup’s inception from the seventeenth century when it became open to all continents. There is also heated debate about the accuracy of some historical accounts of tournaments. A substantial amount of all post-game analysis centres on whether magical interference took place and whether it made, or ought to have made, the final result moot.",
+    "aboutme":"I’m Elizabeth, also known as Lily. I am constantly laughing and getting the most out of life. I come from a background in biology, as I have always been passionate about animals and science alike. Recently, however, I have discovered a whole new passion in software engineering. So like my other passions in life, I dove right in. I found myself coding for hours on end, always determined to finish what I start, sometimes even forgetting to eat! I value knowledge considerably and have always been a primarily logical thinker, and in a world where logic can fall by the wayside it made the field of software engineering that much more intriguing to me.  Those same principles have also helped me immensely in adaptation and problem solving within the field, quicker even than I was expecting. With all the new technologies, languages, libraries and consistent changes in this field, I know the learning will never cease, and I could not be more excited for that.",
     "address":"emalvarado90@gmail.com",
     "website":"https://github.com/emalvarado",
     "education":[

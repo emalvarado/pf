@@ -4,7 +4,7 @@ const credentials = require('../credentials')
 const PORT = 4000
 
 const app = express()
-app.use(express.json)
+app.use(express.json())
 
 //nodemailer
 
