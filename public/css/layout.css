@@ -36,9 +36,9 @@ header {
    background: #161415 url(../images/pexels-photo-933054.jpg) no-repeat top center;
    background-size: cover;
    background-position: center;
-	/* -webkit-background-size: cover !important; */
+	-webkit-background-size: cover !important;
    text-align: center;
-   /* overflow: hidden; */
+   overflow: hidden;
    background-attachment: fixed;
 }
 
@@ -152,6 +152,7 @@ header .scrolldown a:hover { color: #11ABB0; }
 ul#nav {
    min-height: 48px;
    width: auto;
+   /* background: #333; */
 
    /* center align the menu */
    text-align: center;
@@ -801,7 +802,8 @@ call-to-action .button {
    background: #191919;
    padding-top: 96px;
    padding-bottom: 102px;
-   color: #636363;
+   color: #8d8d8d;
+   ;
 }
 #contact .section-head { margin-bottom: 42px; }
 

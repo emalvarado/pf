@@ -54,7 +54,12 @@ export default class Contact extends Component {
         </div> */}
         <div className='contact-header'>
           <h2>Contact</h2>
-          <p>Feel free to contact me for any work or suggestions below</p>
+          {/* <p>See my <a href="linkedin.com/emalvarado">LinkedIn</a> for email</p> */}
+          <p>
+            See my <a href="https://www.linkedin.com/in/emalvarado/">LinkedIn</a> for my email address,
+            <br/>
+            or feel free to contact me for any work or suggestions below.
+          </p>
         </div>
 
         <div className='contact-input'>

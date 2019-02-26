@@ -121,7 +121,7 @@ export default class Porfolio extends Component {
           </div>
           <div className='info-container'>
             <h3>Lean Sciences:</h3>
-            <p>a personally created full stack website for a personal training business, where clients can make appointments for training sessions from an availability set by the employee. </p>
+            <p>A personally created full stack website for a personal training business, where clients can make appointments for training sessions from an availability set by the employee. </p>
             <h3>Technologies Used:</h3>
             <p>React | NodeJS | PostgresSQL | Socket.io | Stripe | NodeMailer | Sass | CSS3 | HTML5 | Redux | Axios | Express | Massive | Bcrypt | Heroku </p>
 

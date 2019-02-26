@@ -1,10 +1,12 @@
 const express = require('express')
 const nodemailer = require("nodemailer")
 const credentials = require('../credentials')
-const PORT = 4000
+const PORT = 4400
 
 const app = express()
 app.use(express.json())
+
+app.use( express.static( `${__dirname}/../build` ) );
 
 //nodemailer
 
