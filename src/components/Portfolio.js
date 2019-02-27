@@ -9,6 +9,13 @@ import loginImg from '../images/LS/login.png'
 import scheduleImg1 from '../images/LS/schedule1.png'
 import scheduleImg2 from '../images/LS/schedule2.png'
 import scheduleImg3 from '../images/LS/schedule3.png'
+import kbucketlist from '../images/kanoo/bucketlist.png'
+import kdashboard from '../images/kanoo/dashboard.png'
+import klanding from '../images/kanoo/landing.png'
+import klogin from '../images/kanoo/login.png'
+import kmyTrips from '../images/kanoo/myTrips.png'
+import kprofile from '../images/kanoo/profile.png'
+import ktripDetails from '../images/kanoo/tripDetails.png'
 
 
 export default class Porfolio extends Component {
@@ -135,7 +142,7 @@ export default class Porfolio extends Component {
             </ul>
 
             <div className='button-container'>
-            <a href="https://emalvarado.com/#/"><button>Live Site</button></a>
+            <a href="https://leansciences.emalvarado.com/"><button>Live Site</button></a>
             <a href="https://github.com/emalvarado/LeanSciences"><button>GitHub</button></a>
             </div>
           </div>
@@ -147,10 +154,9 @@ export default class Porfolio extends Component {
             <h3>Kanoo:</h3>
             <p>An app to help manage your travel plans, with ability to add budget expenses, activities, locations, and more. </p>
             <h3>Technologies Used:</h3>
-            <p>React | NodeJS | PostgresSQL | Sass | CSS3 | HTML5 | Redux | Axios | Express | Massive | Bcrypt | Heroku </p>
+            <p>React | NodeJS | PostgresSQL | Sass | CSS3 | HTML5 | Redux | Axios | React Slick | Express | Massive | Bcrypt | Heroku </p>
 
             <ul>
-              <li>Socket.io implemented for both clients and employees to be updated in real time</li>
               <li>Integrated axios calls to backend server to load and update data from PostgresSQL database</li>
               <li>Used React to create components viewed through different browser routes, made responsive with CSS</li>
               <li>Integrated Redux to hold and manage state</li>
@@ -159,65 +165,53 @@ export default class Porfolio extends Component {
             </ul>
 
             <div className='button-container'>
-              <button>Live Site</button>
-              <button>GitHub</button>
+              <a href='https://kanoo.fun/'><button>Live Site</button></a>
+              <a href='https://github.com/wpr-45-studentdevs/travel-app'><button>GitHub</button></a>
             </div>
           </div>
           <div className='slider-container'>
             <Slider {...settings} className='slider'>
               <div>
-                <img src={homepageImg} alt="" />
+                <img src={klanding} alt="" />
               </div>
               <div className='LS-image-description'>
-                Homepage. Used parallax for scroll effect.
+                Landing Page. Used React Slick as a carousel for the background images.
               </div>
               <div>
-                <img src={scheduleImg1} alt="" />
+                <img src={klogin} alt="" />
               </div>
               <div className='LS-image-description'>
-                Schedule Page. This is what appears when user is not logged in.
+                Login page. Register page is the same with a few added inputs.
               </div>
               <div>
-                <img src={contactImg} alt="" />
+                <img src={kdashboard} alt="" />
               </div>
               <div className='LS-image-description'>
-                Contact Page. Implemented NodeMailer for user to easily contact trainer.
+                Dashboard. Used React slick again here to display the people on each trip. This page shows all user's trips that are marked as public.
               </div>
               <div>
-                <img src={loginImg} alt="" />
+                <img src={kmyTrips} alt="" />
               </div>
               <div className='LS-image-description'>
-                Login Page. Used BCrypt for login security.
+                "My Trips" page. This page shows all of the logged in user's trips. They can display either their passed, or upcoming trips with the toggle. You can then click on each trip which would take you to the trip details modal.
               </div>
               <div>
-                <img src={scheduleImg3} alt="" />
+                <img src={ktripDetails} alt="" />
               </div>
               <div className='LS-image-description'>
-                Schedule Page. This is the admin view of the schedule page.
-                <br />
-                All client appointments will show up in this table.
+                Trip Details Modal. This is where you can edit all the details of the trip, such as locations, activities budget, or notes. You can also add users to the trip so they can add to it as well. Only the person who created the trip is allowed to delete the trip.
               </div>
               <div>
-                <img src={availImg} alt="" />
+                <img src={kbucketlist} alt="" />
               </div>
               <div className='LS-image-description'>
-                Schedule Page. This is the admin view for adding availability to the schedule.
+              Bucketlist Page. Here you can add random events to keep track of, that are not necessarily tied to an event.
               </div>
               <div>
-                <img src={scheduleImg2} alt="" />
+                <img src={kprofile} alt="" />
               </div>
               <div className='LS-image-description'>
-                Schedule Page. This is the client view of the schedule page.
-                <br />
-                All client's appointments will render in this table.
-              </div>
-              <div>
-                <img src={apptImg} alt="" />
-              </div>
-              <div className='LS-image-description'>
-                Schedule Page. This is the client's view for adding an appointment.
-                <br />
-                Implemented Stripe as the payment gateway.
+              Profile Page. This is where a user can see and edit their own information, as well as add and delete friends, that they can then choose to add to their trips.
               </div>
             </Slider>
           </div>
